@@ -9,6 +9,25 @@
 
 ---
 
+nginx.service
+
+```ini
+[Unit]
+Description=Custom Nginx from source
+After=network.target
+
+[Service]
+Type=forking
+ExecStart=/usr/sbin/nginx
+ExecReload=/usr/sbin/nginx -s reload
+ExecStop=/usr/sbin/nginx -s quit
+PIDFile=/var/run/nginx.pid
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target
+```
+
 Проверка статуса сервиса nginx:
 
 <img width="755" height="203" alt="image" src="https://github.com/user-attachments/assets/1dfae603-b947-4177-bbc9-77fb8a1a990b" />
