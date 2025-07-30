@@ -3,13 +3,13 @@
 
 1. Подготовка тестового окружения
 
-Проверка версии установленного nginx (установка с помощью самописного скрипта install-nginx-from-source.sh)
+Проверка версии установленного nginx (установка с помощью самописного скрипта install-nginx-from-source.sh):
 
 <img width="1654" height="179" alt="image" src="https://github.com/user-attachments/assets/6f4aa735-a547-4d25-9782-4966c19568cf" />
 
 ---
 
-Проверка статуса сервиса nginx
+Проверка статуса сервиса nginx:
 
 <img width="755" height="203" alt="image" src="https://github.com/user-attachments/assets/1dfae603-b947-4177-bbc9-77fb8a1a990b" />
 
@@ -33,7 +33,7 @@ check_nginx:
    - nginx
 ```
 
-Результат выполнения пайплайна на shell раннере
+Результат выполнения пайплайна на shell раннере:
 
 <img width="1618" height="593" alt="image" src="https://github.com/user-attachments/assets/3175cff5-7de7-49a9-a49a-58dc1a7c8b83" />
 
@@ -57,7 +57,7 @@ EXPOSE 80
 CMD ["nginx", "-g", "daemon off;"]
 ```
 
-Проверка 
+Проверка:
 
 <img width="1430" height="137" alt="image" src="https://github.com/user-attachments/assets/980f1359-3aae-4ddc-933a-48a7b988ae9b" />
 
@@ -88,7 +88,7 @@ spec:
             - containerPort: 80
 ```
 
-Проверка 
+Проверка:
 
 <img width="953" height="68" alt="image" src="https://github.com/user-attachments/assets/2e40ddb6-11ab-4fdc-bc7d-6e81cc7d0dc9" />
 
