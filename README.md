@@ -3,7 +3,7 @@
 
 1. Подготовка тестового окружения
 
-Проверка версии установленного nginx
+Проверка версии установленного nginx (установка с помощью самописного скрипта install-nginx-from-source.sh)
 
 <img width="1654" height="179" alt="image" src="https://github.com/user-attachments/assets/6f4aa735-a547-4d25-9782-4966c19568cf" />
 
