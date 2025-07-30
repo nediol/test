@@ -1,7 +1,7 @@
 # test
 Тестовое задание
 
-1. Подготовка тестового окружения
+## 1. Подготовка тестового окружения
 
 Проверка версии установленного nginx (установка с помощью самописного скрипта install-nginx-from-source.sh):
 
@@ -16,7 +16,7 @@
 - Nginx работает
 - systemctl status nginx показывает активное состояние
 
-2. Напишите простой .gitlab-ci.yml файл
+## 2. Напишите простой .gitlab-ci.yml файл
 
 .gitlab-ci.yml
 
@@ -41,7 +41,7 @@ check_nginx:
 - Корректный файл .gitlab-ci.yml с минимальным пайплайном
 - Комментарии внутри объясняют, что делает каждая стадия
 
-3. Работа с Docker
+## 3. Работа с Docker
 
 Dockerfile
 
@@ -64,7 +64,7 @@ CMD ["nginx", "-g", "daemon off;"]
 - Рабочий Dockerfile
 - Контейнер поднимается и отвечает на curl localhost или через браузер
 
-4. (На выбор) Мини-задание по YAML / Kubernetes
+## 4. (На выбор) Мини-задание по YAML / Kubernetes
 
 ```yaml
 apiVersion: apps/v1
@@ -93,7 +93,7 @@ spec:
 <img width="953" height="68" alt="image" src="https://github.com/user-attachments/assets/2e40ddb6-11ab-4fdc-bc7d-6e81cc7d0dc9" />
 
 
-5. Ответьте письменно на 3 вопроса
+## 5. Ответьте письменно на 3 вопроса
 
 Чем отличается apt update от apt upgrade?
 
